@@ -1,3 +1,3 @@
 # ProjectOrigin
 
-Using H2 in-memory database for basic database communications.
+Spring Boot Project with H2 in-memory database and unit testing starter.
