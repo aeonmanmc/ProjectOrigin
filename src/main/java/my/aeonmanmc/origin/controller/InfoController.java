@@ -1,4 +1,4 @@
-/*package my.aeonmanmc.origin.controller;
+package my.aeonmanmc.origin.controller;
 
 import javax.inject.Inject;
 
@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 
 @Component
-public class AppInfo implements InfoContributor {
+public class InfoController implements InfoContributor {
 
 	@Value("${app.artifactId}")
 	private String appArtifactId;
@@ -24,7 +24,7 @@ public class AppInfo implements InfoContributor {
 	private final Environment env;
 
 	@Inject
-	public AppInfo(Environment env) {
+	public InfoController(Environment env) {
 		this.env = env;
 	}
 
@@ -41,4 +41,3 @@ public class AppInfo implements InfoContributor {
 	}
 
 }
-*/
