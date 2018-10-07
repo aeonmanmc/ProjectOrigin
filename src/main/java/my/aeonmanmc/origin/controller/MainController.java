@@ -25,7 +25,6 @@ public class MainController {
 		this.inventoryService = inventoryService;
 	}	
     
-
 	@GetMapping("/games")
 	public ResponseEntity<?> retrieveAllGames() {
 		return new ResponseEntity<>(inventoryService.retrieveAllGames(), HttpStatus.OK);
